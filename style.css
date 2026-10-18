@@ -511,7 +511,12 @@ img {
 }
 
 .granite-image {
-    background-image: url("./granite.jpg");
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.08),
+            rgba(0, 0, 0, 0.08)
+        ),
+        url("./granite.jpg"); 
 }
 
 .marble-image {
