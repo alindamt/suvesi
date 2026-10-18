@@ -519,8 +519,13 @@ img {
         url("./granite.jpg"); 
 }
 
-.marble-image {
-    background-image: url("./images/marble.jpg");
+.marble-image{
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.08),
+            rgba(0, 0, 0, 0.08)
+        ),
+        url("./marble.jpg");
 }
 
 .paving-image {
