@@ -986,7 +986,6 @@ footer {
     font-size: 12px;
 }
 
-
 /* =========================
    WHATSAPP FLOAT BUTTON
    ========================= */
@@ -1025,7 +1024,6 @@ footer {
     font-weight: 800;
 }
 
-
 /* =========================
    TABLET
    ========================= */
@@ -1057,7 +1055,6 @@ footer {
         row-gap: 45px;
     }
 }
-
 
 /* =========================
    MOBILE / TABLET
@@ -1204,8 +1201,7 @@ footer {
         border-radius: 22px;
     }
 
-
-    /* CTA */
+   /* CTA */
 
     .cta-section {
         flex-direction: column;
@@ -1237,7 +1233,6 @@ footer {
         align-items: flex-start;
     }
 }
-
 
 /* =========================
    SMALL PHONES
@@ -1362,8 +1357,7 @@ footer {
         padding: 65px 7%;
     }
 
-
-    /* WHATSAPP */
+ /* WHATSAPP */
 
     .whatsapp-float {
         right: 18px;
@@ -1372,7 +1366,6 @@ footer {
         height: 56px;
     }
 }
-
 
 /* =========================
    VERY SMALL PHONES
@@ -1458,7 +1451,6 @@ footer {
     line-height: 1.2;
 }
 
-
 /* =========================
    MOBILE VIDEOS
    ========================= */
@@ -1477,7 +1469,6 @@ footer {
         height: 300px;
     }
 }
-
 
 @media (max-width: 550px) {
 
