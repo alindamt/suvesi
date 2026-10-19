@@ -522,8 +522,8 @@ img {
 .marble-image{
     background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.16),
-            rgba(0, 0, 0, 0.16)
+            rgba(0, 0, 0, 0.08),
+            rgba(0, 0, 0, 0.08)
         ),
         url("./marble.jpg");
 }
