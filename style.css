@@ -528,8 +528,13 @@ img {
         url("./marble.jpg");
 }
 
-.paving-image {
-    background-image: url("./images/paving.jpg");
+.paver-image {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.08),
+            rgba(0, 0, 0, 0.08)
+        ),
+        url("./paver.jpg");
 }
 
 .interior-image {
