@@ -428,7 +428,7 @@ img {
    ========================= */
 
 .services-section {
-    width: calc(100% - 20px);
+    width: calc(100% - 60px);
     max-width: 720px;
     margin: auto;
     padding: 100px 5%;
