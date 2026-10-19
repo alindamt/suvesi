@@ -482,11 +482,6 @@ img {
 }
 
 .service-image {
-    width: 100%;
-    height: 270px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .service-large .service-image {
