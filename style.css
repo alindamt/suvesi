@@ -1,5 +1,6 @@
 /* =========================================================
    AMT GROUP — COMPLETE PROFESSIONAL WEBSITE CSS
+
    ========================================================= */
 
 /* =========================
@@ -459,7 +460,6 @@ img {
 
 .service-card {
     overflow: hidden;
-    background: #ffffff;
     border-radius: 22px;
     transition:
         transform 0.35s ease,
