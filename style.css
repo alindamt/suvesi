@@ -1232,7 +1232,7 @@ footer {
     .service-large .service-image,
     .service-wide .service-image {
         height: 340px;
-        min-height: 280px;
+        min-height: 340px;
     }
 
     /* ABOUT */
