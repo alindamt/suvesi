@@ -474,12 +474,12 @@ img {
 }
 
 .service-large .service-image {
-    height: 600px;
+    height: 430px;
 }
 
 .service-wide .service-image {
-    height: 100%;
-    min-height: 300px;
+    height: 150%;
+    min-height: 600px;
 }
 
 
