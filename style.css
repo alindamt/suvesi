@@ -522,13 +522,13 @@ img {
         url("./marble.jpg");
 }
 
-.paver-image {
+.paving-image {
     background-image:
         linear-gradient(
             rgba(0, 0, 0, 0.08),
             rgba(0, 0, 0, 0.08)
         ),
-        url("./paver.jpg");
+        url("./paving.jpg");
 }
 
 .interior-image {
