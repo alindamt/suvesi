@@ -447,12 +447,12 @@ img {
 .services-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 22px;
+    gap: 20px;
 }
 
 .service-card {
     overflow: hidden;
-    border-radius: 22px;
+    border-radius: 20px;
     transition:
         transform 0.35s ease,
         box-shadow 0.35s ease;
@@ -549,7 +549,7 @@ img {
 }
 
 .service-content {
-    padding: 20px;
+    padding: 30px;
 }
 
 .service-content > span {
