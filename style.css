@@ -531,17 +531,29 @@ img {
         url("./paving.jpg");
 }
 
-.interior-image {
-    background-image: url("./images/interior.jpg");
-}
+.plumbing1-image {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.08),
+            rgba(0, 0, 0, 0.08)
+        ),
+        url("./plumbing1.jpg");
 
-.exterior-image {
-    background-image: url("./images/exterior.jpg");
-}
+.plumbing-image {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.08),
+            rgba(0, 0, 0, 0.08)
+        ),
+        url("./pumbing.jpg");
 
 .materials-image {
-    background-image: url("./images/materials.jpg");
-}
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.08),
+            rgba(0, 0, 0, 0.08)
+        ),
+        url("./materials.jpg");
 
 .service-content {
     padding: 30px;
