@@ -1426,3 +1426,112 @@ footer .footer-links a:hover {
         transition-duration: 0.01ms !important;
     }
 }
+
+
+/* =========================================
+   SUVESI VIDEO SECTION — HORIZONTAL ROWS
+   Matches .videos-section, .videos-grid,
+   .video-card and .video-info in index.html
+   ========================================= */
+
+.videos-section {
+    padding: 90px 24px;
+    background: #f6f7fb;
+}
+
+.video-heading {
+    width: min(100%, 1100px);
+    margin: 0 auto 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 35px;
+}
+
+.video-heading h2 {
+    color: #2d398e;
+    font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.2;
+}
+
+.video-heading > p {
+    max-width: 450px;
+    color: #666b78;
+}
+
+.videos-grid {
+    width: min(100%, 1100px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 26px;
+}
+
+.video-card {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e7e9ef;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(24, 35, 75, 0.06);
+    overflow: hidden;
+}
+
+.video-card video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    background: #111111;
+    border-radius: 10px;
+}
+
+.video-info {
+    padding: 15px 10px;
+}
+
+.video-info span {
+    display: block;
+    margin-bottom: 10px;
+    color: #a52a2a;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.video-info h3 {
+    margin-bottom: 12px;
+    color: #2d398e;
+    font-size: clamp(20px, 2.5vw, 28px);
+    line-height: 1.3;
+}
+
+@media (max-width: 700px) {
+    .videos-section {
+        padding: 60px 18px;
+    }
+
+    .video-heading {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .video-heading > p {
+        margin-top: 15px;
+    }
+
+    .video-card {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .video-info {
+        padding: 12px 8px 16px;
+    }
+}
+
