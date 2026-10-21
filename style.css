@@ -474,12 +474,12 @@ img {
 }
 
 .service-large .service-image {
-    height: 380px;
+    height: 450px;
 }
 
 .service-wide .service-image {
     height: 100%;
-    min-height: 380px;
+    min-height: 450px;
 }
 
 
@@ -559,23 +559,23 @@ img {
 }
 
 .service-content h3 {
-    margin-top: 6px;
+    margin-top: 14px;
     color: #2d398e;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.15;
     letter-spacing: -1px;
 }
 
 .service-content p {
-    margin: 10px 0 18px;
+    margin: 0 0 24px;
     color: #666666;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 .service-content a {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
 }
 
