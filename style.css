@@ -468,7 +468,7 @@ p:last-child {
 .service-image {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 550px;
     min-height: 200px;
     flex-shrink: 0;
     overflow: hidden;
