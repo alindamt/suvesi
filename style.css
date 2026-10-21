@@ -481,49 +481,49 @@ p:last-child {
 /* Service image backgrounds */
 
 .tiles-image {
-    background-image: url("./images/tiles.jpg");
+    background-image: url("./tiles.jpg");
 }
 
 .granite-image {
-    background-image: url("./images/granite.jpg");
+    background-image: url("./granite.jpg");
 }
 
 .paving-image {
-    background-image: url("./images/paving.jpg");
+    background-image: url("./paving.jpg");
 }
 
 .plumbing-image {
-    background-image: url("./images/plumbing.jpg");
+    background-image: url("./plumbing.jpg");
 }
 
 .painting-image {
-    background-image: url("./images/painting.jpg");
+    background-image: url("./painting.jpg");
 }
 
 .construction-image {
-    background-image: url("./images/construction.jpg");
+    background-image: url("./construction.jpg");
 }
 
 .renovation-image {
-    background-image: url("./images/renovation.jpg");
+    background-image: url("./renovation.jpg");
 }
 
 /* Alternative service image class names */
 
 .service-image.tiles {
-    background-image: url("./images/tiles.jpg");
+    background-image: url("./tiles.jpg");
 }
 
 .service-image.granite {
-    background-image: url("./images/granite.jpg");
+    background-image: url("./granite.jpg");
 }
 
 .service-image.paving {
-    background-image: url("./images/paving.jpg");
+    background-image: url("./paving.jpg");
 }
 
 .service-image.plumbing {
-    background-image: url("./images/plumbing.jpg");
+    background-image: url("./plumbing.jpg");
 }
 
 .service-card-content,
