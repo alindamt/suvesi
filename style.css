@@ -1457,3 +1457,67 @@ footer {
         gap: 15px;
     }
 }
+
+
+/* Service item: large image, smaller text area */
+.service-item {
+    display: grid;
+    grid-template-columns: 1.35fr 0.85fr;
+    gap: 24px;
+    align-items: start;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+/* Expand the image */
+.service-image {
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.service-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Reduce the text space */
+.service-content {
+    width: 100%;
+    max-width: 440px;
+    padding: 20px 0;
+}
+
+.service-content h3 {
+    margin: 0 0 14px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.service-content p {
+    margin: 0 0 24px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .service-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .service-image {
+        height: 320px;
+    }
+
+    .service-content {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
