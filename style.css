@@ -549,13 +549,13 @@ img {
 }
 
 .service-content {
-    padding: 25px;
+    padding: 20px;
 }
 
 .service-content > span {
     color: #999999;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 300;
 }
 
 .service-content h3 {
