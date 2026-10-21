@@ -488,6 +488,10 @@ p:last-child {
     background-image: url("./granite.jpg");
 }
 
+.marble-image {
+    background-image: url("./marble.jpg");
+}
+
 .paving-image {
     background-image: url("./paving.jpg");
 }
