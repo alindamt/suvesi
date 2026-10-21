@@ -468,7 +468,7 @@ p:last-child {
 .service-image {
     position: relative;
     width: 100%;
-    height: 240px;
+    height: 600px;
     min-height: 200px;
     flex-shrink: 0;
     overflow: hidden;
@@ -1309,7 +1309,7 @@ footer .footer-links a:hover {
     }
 
     .service-image {
-        height: 600px;
+        height: 240px;
     }
 
     .about-grid,
@@ -1426,98 +1426,3 @@ footer .footer-links a:hover {
         transition-duration: 0.01ms !important;
     }
 }
-
-/* =========================================================
-   SUVESI — COMPLETE WEBSITE CSS
-   Services: image cards
-   Videos: horizontal thumbnail + text rows
-   Projects: image gallery
-   Responsive desktop, tablet and mobile
-   ========================================================= */
-
-:root {
-    --primary: #2d398e;
-    --primary-dark: #202b70;
-    --accent: #25d366;
-    --text: #171923;
-    --muted: #666b78;
-    --light: #f5f6fa;
-    --white: #ffffff;
-    --border: #e5e7ee;
-    --radius: 18px;
-    --container: 1200px;
-}
-
-/* 1. Reset and global */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 95px;
-}
-
-body {
-    font-family: "Inter", Arial, sans-serif;
-    color: var(--text);
-    background: var(--white);
-    line-height: 1.7;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-}
-
-body, button, input, textarea, select {
-    font-family: "Inter", Arial, sans-serif;
-}
-
-img, video {
-    display: block;
-    max-width: 100%;
-}
-
-img {
-    height: auto;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-button {
-    font: inherit;
-    cursor: pointer;
-}
-
-section {
-    position: relative;
-    scroll-margin-top: 95px;
-}
-
-.container {
-    width: min(100% - 48px, var(--container));
-    margin-inline: auto;
-}
-
-.section {
-    padding: 88px 0;
-}
-
-.section-heading {
-    max-width: 780px;
-    margin: 0 auto 44px;
-    text-align: center;
-}
-
-.section-title {
-    color: var(--primary);
-    font-size: clamp(30px, 4vw, 44px);
-    line-height: 1.2;
-    font-weight: 800;
-    margin-bottom: 15px;
-}
-
-.section-description {
