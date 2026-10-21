@@ -526,6 +526,10 @@ p:last-child {
     background-image: url("./paving.jpg");
 }
 
+.service-image.plumbing1 {
+    background-image: url("./plumbing1.jpg");
+}
+
 .service-image.plumbing {
     background-image: url("./plumbing.jpg");
 }
