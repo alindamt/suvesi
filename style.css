@@ -651,19 +651,6 @@ p:last-child {
     gap: 55px;
 }
 
-.about-image {
-    width: 100%;
-    min-height: 400px;
-    overflow: hidden;
-    background-color: #e1e4ec;
-    background-image: url("./images/about.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-}
-
 .about-text h2,
 .about-content h2 {
     margin-bottom: 22px;
