@@ -1,128 +1,96 @@
-    /* HERO */
-    .hero {
-        min-height: 690px;
-    }
+/* =========================================================
+   SUVESI — COMPLETE PROFESSIONAL WEBSITE CSS
+   ========================================================= */
 
-    .hero-background {
-        background-position: 62% center;
-        background-image:
-            linear-gradient(
-                90deg,
-                rgba(0, 0, 0, 0.88),
-                rgba(0, 0, 0, 0.60),
-                rgba(0, 0, 0, 0.25)
-            ),
-            url("./hero.jpg");
-    }
+/* =========================
+   RESET
+   ========================= */
 
-    .hero-content {
-        padding: 60px 25px;
-    }
-
-    .hero h1 {
-        font-size: 50px;
-        letter-spacing: -3px;
-    }
-
-    .hero-description {
-        margin-top: 25px;
-        font-size: 15px;
-        line-height: 1.65;
-    }
-
-    .hero-actions {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
-    .hero-info {
-        gap: 22px;
-        margin-top: 45px;
-    }
-
-    /* HEADINGS */
-    .intro h2,
-    .section-heading h2,
-    .about-content h2,
-    .why-heading h2,
-    .cta-section h2,
-    .contact-info h2 {
-        font-size: 43px;
-        letter-spacing: -2px;
-    }
-
-    /* ABOUT */
-    .about-points {
-        grid-template-columns: 1fr;
-    }
-
-    .about-image {
-        min-height: 380px;
-    }
-
-    /* WHY */
-    .why-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* CONTACT */
-    .contact-card {
-        padding: 30px 25px;
-    }
-
-    .contact-card h3 {
-        font-size: 26px;
-    }
-
-    /* FOOTER */
-    .footer-main {
-        grid-template-columns: 1fr;
-        padding: 65px 7%;
-    }
-
-    /* WHATSAPP */
-    .whatsapp-float {
-        right: 18px;
-        bottom: 18px;
-        width: 56px;
-        height: 56px;
-    }
-
-    /* VIDEOS */
-    .videos-section {
-        padding: 0 20px;
-    }
-
-    .video-card {
-        border-radius: 20px;
-    }
-
-    .video-card video {
-        height: 240px;
-    }
-
-    .video-info h3 {
-        font-size: 21px;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (max-width: 380px) {
-    .hero h1 {
-        font-size: 44px;
-    }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
 
-    .intro h2,
-    .section-heading h2,
-    .about-content h2,
-    .why-heading h2,
-    .cta-section h2,
-    .contact-info h2 {
-        font-size: 38px;
-    }
+body {
+    font-family: "Inter", Arial, sans-serif;
+    color: #111111;
+    background: #ffffff;
+    border: 1px solid #25d366;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
 
-    .hero-info {
-        gap: 15px;
+body,
+button,
+input,
+textarea,
+select {
+    font-family: "Inter", Arial, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #eeeeee;
+}
+
+.header-inner {
+    width: 100%;
+    max-width: 1400px;
+    min-height: 82px;
+    margin: auto;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+
+.logo-mark {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+.logo-text {
+    color: #2d398e;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 4px;
