@@ -598,7 +598,6 @@ p:last-child {
     background: var(--white);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    box-shadow: 0 6px 24px rgba(24, 35, 75, 0.07);
 }
 
 .video-card video,
