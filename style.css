@@ -724,10 +724,6 @@ p:last-child {
     overflow: hidden;
     display: flex;
     align-items: flex-end;
-    background-color: #dfe2ea;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     border-radius: var(--radius);
     isolation: isolate;
     box-shadow: 0 5px 20px rgba(24, 35, 75, 0.08);
