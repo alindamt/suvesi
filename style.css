@@ -728,10 +728,6 @@ p:last-child {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: var(--radius);
-    isolation: isolate;
-    box-shadow: 0 5px 20px rgba(24, 35, 75, 0.08);
-    transition: transform 0.3s ease;
 }
 
 .project-card:hover,
@@ -762,7 +758,8 @@ p:last-child {
     background-image: url("./project-2.jpg");
 }
 
-.project-three { url("./project-3.jpg");
+.project-three {  
+   background-image: url("./project-3.jpg");
 }
 
 .project-four {
