@@ -18,7 +18,7 @@
     --light: #f6f7fb;
     --white: #ffffff;
     --border: #e7e9ef;
-   --shadow: 0 12px 35px rgba(24, 35, 75, 0.10);
+    --shadow: 0 12px 35px rgba(24, 35, 75, 0.10);
     --radius: 16px;
     --container: 1200px;
 }
